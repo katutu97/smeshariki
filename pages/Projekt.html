@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>В гостях у Совуньи</title>
+  <link rel="stylesheet" type="text/css" href="../styles/stilg.css">
+  <link rel="shortcut icon" type="image/png" href="../images/LogTit.png" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+  <script src="../scripts/slid.js"></script>
+</head>
+<body>
+  <div id="topNubex"><img src="../images/ButtonUp.png" width="150px" height="150px"></div> 
+  <div id="container">
+    <nav class="sticky">
+    <ul id="navbar">
+      <li><a href="Projekt.html">Проекты</a></li>
+      <li><a href="Fan.html">Фан факты</a></li>
+      <li><a>Персонажи</a>
+        <ul>
+          <li><a href="Krosh.html">Крош</a></li>
+          <li><a href="Esh.html">Ёжик</a></li>
+          <li><a href="Nush.html">Нюша</a></li>
+          <li><a href="Bar.html">Бараш</a></li>
+          <li><a href="Pin.html">Пин</a></li>
+          <li><a href="Los.html">Лосяш</a></li>
+          <li><a href="Owl.html">Совунья</a></li>
+          <li><a href="Kar.html">Кар-карыч</a></li>
+          <li><a href="Kop.html">Копатыч</a></li>
+        </ul>
+      </li>
+      <li><a href="glavnay.html">Главная</a></li>
+    </ul>
+  </nav>
+  <h1 class="zagalovok">Danon и Смешарики</h1>
+  <p>Группа компаний Danone в России и Группа Компаний «Рики» (правообладатель бренда «Смешарики») обновили линейку и запустили новые молочные коктейли и питьевые йогурты со вкусами жевательной резинки «Бабл-гам» и попкорна. «Бабл-гамика» и «Попкорнус» – в продаже во всех магазинах России. </p>
+  <center><img src="../images/P1.jpg" width="500px" height="300px"></center>
+  <p>«Смешарики» дают возможность стать ближе к любимым героям и насладиться молочными лакомствами, а новая яркая и красочная упаковка с популярными персонажами позволяет выделить продукт на полках магазинов. Все продукты производятся в строгом соответствии со стандартами качества и безопасности на современном оборудовании с соблюдением всех норм и требований к детскому питанию, а упаковка гарантирует сохранение высокого качества продукции и соблюдение гигиенических требований. </p>
+
+  <h1 class="zagalovok">Выставка «Смешарт»</h1>
+  <p>В креативном пространстве «Люмьер-Холл» в Санкт-Петербурге прошла выставка «Смешарт».  </p>
+  <p>«Смешарт» - уникальный арт-проект, разработанный художниками Группы Компаний «Рики» - создателями проекта «Смешарики». Коллекция картин «Смешарт» представляет героев одного из самых популярных российских анимационных проектов – Смешариков в шедеврах мировой живописи. Выполненные в различной технике – от простой графики до полноценной живописи – картины «Смешарт» наполнены юмором, по-своему смелы, но проникнуты безмерным уважением к великим полотнам, ставшим прообразами коллекции. </p>
+  <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <center><img src="../images/A1.png" style="width:70%"></center>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <center><img src="../images/A2.png" style="width:70%"></center>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <center><img src="../images/A3.png" style="width:70%"></center>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <center><img src="../images/A4.png" style="width:70%"></center>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <center><img src="../images/A5.png" style="width:70%"></center>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <center><img src="../images/A6.png" style="width:70%"></center>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>  
+    </div>
+    <script>showSlides(slideIndex)</script>
+  <p>В рамках выставки были представлены 15 картин, отсылающих к полотнам Леонардо да Винчи, Сандро Ботичелли, Сальвадора Дали, Питера Брейгеля, Густава Климта, Эдварда Мунка и других всемирно известных художников. Оригинальные сюжеты картин выбирались художниками ГК «Рики», героями же неизменно становились Нюша, Крош, Ежик, Пин и другие персонажи «Смешариков». </p>
+
+  <h1 class="zagalovok">МТС и Смешарики</h1>
+  <p>Москва, РФ — ПАО «МТС» (MOEX: MTSS), цифровая экосистема, и анимационный сериал «Смешарики» (ГК «Рики») запустили бесплатный образовательный онлайн-курс по цифровому искусству в рамках федерального благотворительного проекта МТС «Поколение М». Онлайн-курс позволит детям со всей России познакомиться с технологией NFT и сделать первые шаги в ИТ-сфере, создавая собственный арт-объект в 3D формате. </p>
+  <p>«Поколение М» — цифровая образовательная платформа, инициированная и реализуемая Группой МТС в партнерстве с ведущими творческими объединениями, федеральными и региональными органами власти, бизнес-корпорациями.</p>
+  <center><img src="../images/P2.jpg" width="500px" height="300px"></center>
+  <br>
+   <h1 class="zagalovok">Новые проекты</h1>
+   <p>Мы всегда рады услышать новые идеи и прислушаться к ним. Если у вас есть смелые и интересные идея для новых проектов вместе со "Смешариками", то заполняйте форму ниже. После заполнения формы мы свяжемся с вами по почте в течение 14 дней. Всегда рады новым идеям и приключениям!</p>
+  <div class="feedback-form">
+  <center><h1>Введите свои данные</h1></center>
+  <form id="form">
+    <label for="name">ФИО:</label>
+    <input type="text" id="name" placeholder="Иванов Иван Иванович" required>
+    
+    <label for="phone">Номер телефона:</label>
+    <input type="tel" id="phone" placeholder="+7 (999) 999-99-99" required>
+    
+    <label for="email">Почта:</label>
+    <input type="email" id="email"  placeholder="example@email.com" required>
+    
+    <label for="review">Краткое описание проекта:</label>
+    <textarea id="review" required></textarea>
+    
+    <button type="submit">Отправить</button>
+  </form>
+ </div>
+<br>
+
+ </div>
+</body>

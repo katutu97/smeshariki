@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>В гостях у Совуньи</title>
+  <link rel="stylesheet" type="text/css" href="../styles/stilg.css">
+  <link rel="shortcut icon" type="image/png" href="../images/LogTit.png" />
+
+  <script src="../scripts/test.js"></script>
+</head>
+<body>
+  <div id="container">
+  <nav class="sticky">
+    <ul id="navbar">
+      <li><a href="Projekt.html">Проекты</a></li>
+      <li><a href="Fan.html">Фан факты</a></li>
+      <li><a>Персонажи</a>
+        <ul>
+          <li><a href="Krosh.html">Крош</a></li>
+          <li><a href="Esh.html">Ёжик</a></li>
+          <li><a href="Nush.html">Нюша</a></li>
+          <li><a href="Bar.html">Бараш</a></li>
+          <li><a href="Pin.html">Пин</a></li>
+          <li><a href="Los.html">Лосяш</a></li>
+          <li><a href="Owl.html">Совунья</a></li>
+          <li><a href="Kar.html">Кар-карыч</a></li>
+          <li><a href="Kop.html">Копатыч</a></li>
+        </ul>
+      </li>
+      <li><a href="glavnay.html">Главная</a></li>
+    </ul>
+  </nav>
+  <form id="test">
+        <fieldset class="feedbac">
+            <legend>Первый вопрос (1 вариант ответа)</legend>
+            <p>Какова цвета знаменитая скамейка из первой серии:</p>
+            <p><label><input type="radio" name="counter1">Коричневая</label><p>
+            <p><label><input type="radio" name="counter1" data-true="1">Розовая</label></p>
+            <p><label><input type="radio" name="counter1">Зеленая</label></p>
+        </fieldset>
+        <fieldset class="feedbac">
+            <legend>Второй вопрос (1 вариант ответа)</legend>
+            <p>Сколько всего персанажей было изначально:</p>
+            <p><label><input type="radio" name="counter2" data-true="1">более 20</label><p>
+            <p><label><input type="radio" name="counter2">9 персонажей</label></p>
+            <p><label><input type="radio" name="counter2">больше 100 нарисованных</label></p>
+            <p><label><input type="radio" name="counter2">13 персонажей</label></p>
+        </fieldset>
+        <fieldset class="feedbac">
+            <legend>Третий вопрос (1 вариант ответа)</legend>
+            <p>Сколько ящиков морковки у Кроша:</p>
+            <p><label><input type="radio" name="counter3">7 ящиков</label><p>
+            <p><label><input type="radio" name="counter3" data-true="1">Бесконечно</label></p>
+            <p><label><input type="radio" name="counter3">9 ящиков</label></p>
+            <p><label><input type="radio" name="counter3">134 ящика</label></p>
+        </fieldset>
+        <fieldset class="feedbac">
+            <legend>Четвертый вопрос (1 или несколько вариантов ответа)</legend>
+            <p>Чем расплачивались смешарики:</p>
+            <p><label><input type="checkbox" name="check">Деньгами</label></p>
+            <p><label><input type="checkbox" name="check" data-true="1">Фантиками</label></p>
+            <p><label><input type="checkbox" name="check">Ничем. Там нет валюты</label></p>
+            <p><label><input type="checkbox" name="check" data-true="1">Ящиками морковки</label></p>
+        </fieldset>
+        <fieldset class="feedbac">
+            <legend>Пятый вопрос (1 или несколько вариантов ответа)</legend>
+            <p>Какие проекты есть:</p>
+            <p><label><input type="checkbox" name="check" data-true="1">"Смешарт"</label></p>
+            <p><label><input type="checkbox" name="check">Поддержка</label></p>
+            <p><label><input type="checkbox" name="check" data-true="1">Совместно с Danisimo</label></p>
+            <p><label><input type="checkbox" name="check">Круглиши</label></p>
+            <p><label><input type="checkbox" name="check">Сластены</label></p>
+            <p><label><input type="checkbox" name="check">Ни один из перечисленных выше</label></p>
+        </fieldset>
+        <fieldset class="feedbac">
+            <legend>Шестой вопрос (1 или несколько вариантов ответа)</legend>
+            <p>Как можно назвать Кар-карыча:</p>
+            <p><label><input type="checkbox" name="check" data-true="1">Психолог</label></p>
+            <p><label><input type="checkbox" name="check">Нянька</label></p>
+            <p><label><input type="checkbox" name="check">Дятел</label></p>
+            <p><label><input type="checkbox" name="check" data-true="1">Пианист</label></p>
+            <p><label><input type="checkbox" name="check">Ничего из перечисленного</label></p>
+        </fieldset>
+        
+    </form>
+    <br>
+   <center><button class="butfee" onClick="score();">Узнать результат!</button></center>
+    <br>
+  </form>
+ </div>

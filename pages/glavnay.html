@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>В гостях у Совуньи</title>
+  <link rel="stylesheet" type="text/css" href="../styles/stilg.css">
+  <link rel="shortcut icon" type="image/png" href="../images/LogTit.png" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+  <script src="../scripts/test.js"></script>
+</head>
+
+<body>
+  <div id="topNubex"><img src="../images/ButtonUp.png" width="150px" height="150px"></div> 
+  <div id="container">
+  <header><center><img src="../images/Head.png"></center></header>
+  <nav class="sticky">
+    <ul id="navbar">
+      <li><a href="Projekt.html">Проекты</a></li>
+      <li><a href="Fan.html">Фан факты</a></li>
+      <li><a>Персонажи</a>
+        <ul>
+          <li><a href="Krosh.html">Крош</a></li>
+          <li><a href="Esh.html">Ёжик</a></li>
+          <li><a href="Nush.html">Нюша</a></li>
+          <li><a href="Bar.html">Бараш</a></li>
+          <li><a href="Pin.html">Пин</a></li>
+          <li><a href="Los.html">Лосяш</a></li>
+          <li><a href="Owl.html">Совунья</a></li>
+          <li><a href="Kar.html">Кар-карыч</a></li>
+          <li><a href="Kop.html">Копатыч</a></li>
+        </ul>
+      </li>
+      <li><a href="glavnay.html">Главная</a></li>
+    </ul>
+  </nav>
+  <img src="../images/Tabl1.png" width="540px" height="270px" class="img3">
+  <img src="../images/Glav1.png" width="320px" height="270px" class="img1">
+  <h1> Именной у нее собираются все, чтобы попить чай со вкусным пирогом и обсудить все самое интересное. Берите с собой вкусный чай и  слушайте то, что можно узнать за столом у Совуньи и самое главное, я обещаю, что вы обязательно узнаете для себя что-то новое!</h1>
+  <center><h1 class="zagalovok">Сластёны?</h1></center>
+  <p>Да да... Вам не послышалось. "Сластены" это  первоначальный вариант смешариков. Так они назывались с самого начала и выглядили совсем по другому. <img src="../images/Glav2.webp" width="300px" height="200px" class="img2"> Всего их было около двадцати, однако в окончательную версию мультсериала попали только шесть: Крош, Ёжик, Бараш, Лосяш, Кар-Карыч и Совунья. Ещё несколько персонажей, прошедших на поздние стадии производства (Гусений, Бурёнка, Диджей Робкий и Буль-до), впоследствии были заменены на Пина, Нюшу и Копатыча. </p>
+  <p>Раз мы начали говорить о том, что было в начале, то давайте и послешаем о истории создания самой вселенной.</p>
+  <p>Автором идеи «Смешариков» стал Салават Шайхинуров — художник и дизайнер родом из Башкортостана, в начале 2000-х годов работавший в петербургской компании «Fun Game». В 2001 году он получил заказ, согласно которому должен был разработать дизайн круглых шоколадных конфет в виде животных. Однако Салават, нарисовавший несколько эскизов (первым из них был кролик, впоследствии превратившийся в Кроша), решил не отдавать их заказчику, а оставить у себя.</p>
+     <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <center><img src="../images/SlG1.png" style="width:70%"></center>
+        <div class="text">Задумка "Сластены"</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <center><img src="../images/SlG2.png" style="width:70%"></center>
+        <div class="text">Создание персонажей</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <center><img src="../images/SlG3.png" style="width:70%"></center>
+        <div class="text">Первоначальные персонажи</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <center><img src="../images/SlG4.png" style="width:70%"></center>
+        <div class="text">Было = стало</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <center><img src="../images/SlG5.png" style="width:70%"></center>
+        <div class="text">Команда создателей</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+    <script>showSlides(slideIndex)</script>
+  <p>На протяжении 2002-2003 годов формировалась команда, которой в дальнейшем предстояло работать над мультсериалом. Так, его ведущим режиссёром стал Денис Чернов, ранее работавший на анимационной студии «Мельница», композиторами — Сергей Васильев и Марина Ланда. Самыми первыми тестированиями флэш-анимации, проводимыми на личном компьютере Салавата Шайхинурова, занимался Алексей Минченок. «Каждый раз, когда мы подставляли фон, компьютер зависал. Казалось, что мы не закончим анимационный тест никогда», — вспоминал потом художник.</p>  
+  <p>На 5 картинке под номерами изображены первые создалети мультсериала: Алексей Лебедев (1), Денис Чернов (2), Алексей Минченок (3), Илья Максимов (4), Салават Шайхинуров (5), Илья Попов (6), Анатолий Прохоров (7).</p>
+ <p>«Смешарики» закрепились на телевидении лишь к лету 2004 года: 17 мая в программе «Спокойной ночи, малыши!» (телеканал «Россия») вышел сокращённый вариант серии «Скамейка», а 1 июня стартовала трансляция на «СТС» — сначала по будням, а впоследствии и по выходным.</p>
+ <center><h1 class="zagalovok">Ромашковая долина?</h1></center>
+ <p>Так называется место, где живут все главные герои мультсериала. В этой долине разворачиваются почти все мультяшные события, лишь изредка смешарики выходят за её границы (например, когда они путешествовали в Мегаполис или в космос).</p>
+ <p>Ниже вы можете посмотреть карту и нажать на любой домик, чтоб узнать кто в нем живет.</p>
+   <div class="container">
+     <center><img src="../images/map.jpg" alt="Ромашковая долина" width="650px" height="600px"></center>
+     <a class="Button Krosh" href="Krosh.html"></a>
+     <a class="Button Nush" href="Nush.html"></a>
+     <a class="Button Kar" href="Kar.html"></a>
+     <a class="Button Esh" href="Esh.html"></a>
+     <a class="Button Owl" href="Owl.html"></a>
+     <a class="Button Los" href="Los.html"></a>
+     <a class="Button Kop" href="Kop.html"></a>
+     <a class="Button Pin" href="Pin.html"></a>
+     <a class="Button Bar" href="Bar.html"></a>
+   </div>
+   <p>Большую часть карты занимает большой луг, где смешарики часто проводят время, гуляют, занимаются спортом. Внизу справа есть пляж и пирс с которого они часто ловят рыбу и уплывают в путешествия. Сверху слева карты расположилась пустыня, в которой Крош и Ежик заблужились, пока искали подарок для Нюши. А справа, около домика Совудьи находятся горы, куда смешарики ходят в походы.</p>
+   <center><h1 class="zagalovok">Может проверим знания?</h1></center>
+   <p>Надеюсь ты посмотрел внимательно все серии "Смешариков". Также надеюсь, дорогой друг, ты прочитал всю информацию о каждом смешарике и все запомнил. Если это так, то давайте поскорее пройдем тест и узнаем насколько хорошо ты знаешь Вселенную Смешариков. Быстрее нажимай на НАЧАТЬ ТЕСТ!</p>
+   <div class="btn_wrap">
+    <a href="Test.html" class="ba push">Начать тест!</a>
+  </div>
+    <center><h1 class="zagalovok">Понравился наш сайт?</h1></center>
+  <br>
+  <div class="feedback-form">
+  <center><h1>Оставьте отзыв</h1></center>
+  <form id="form">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" placeholder="Иванов Иван" required>
+    
+    <label for="phone">Оцените от 1 до 10:</label>
+    <input type="tel" id="phone" placeholder="10" required>
+    
+    <label for="review">Ваши впечатления:</label>
+    <textarea id="review" required></textarea>
+    
+    <button type="submit">Отправить</button>
+  </form>
+ </div>
+ <br>
+</div>
+</body>
+</html>
